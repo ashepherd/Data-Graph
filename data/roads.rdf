@@ -1,0 +1,3045 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://ufokn.demo/roads/1101841334190>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 3" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841334199>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 3" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841334202>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 3" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841361655>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 8" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841361674>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 8" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841400085>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 35" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841400090>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 5" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841400095>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 35" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841400099>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 35" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841409465>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1101841409468>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1101841431191>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 75" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1101841431195>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 75" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1101841435763>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1101841435766>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1101841436297>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841438403>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841438409>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841445193>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 249" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841445197>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 249" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841445201>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 249" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841445205>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 249" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841445209>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 249" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841448546>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 290" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1101841451751>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 290L Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1101841455155>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 494" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841459738>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 610" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1101841459749>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 610" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1101841493742>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146E Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841493749>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146E Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101841513342>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N 69th St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841544244>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "East Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841544247>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "East Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841560136>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Gulf Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841560159>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Gulf Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841574510>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Katy Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841577991>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Katy Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841587850>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841587855>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841588796>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841588799>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589362>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589365>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589368>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589371>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589697>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589700>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589893>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841589896>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841590386>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841590390>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841595469>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Main Ln" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841595481>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Main Ln" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841595678>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Main St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841613937>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Peek Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841716856>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Ferry Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841716859>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Ferry Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841725850>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841725906>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841725910>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841775255>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "North Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841775258>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "North Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841824863>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "South Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841824868>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "South Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841824872>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "South Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841824875>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "South Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841938991>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Crosby Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841938992>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Crosby Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841941976>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Loop S Svc Rd" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/1101841942278>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Market St" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841942279>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Market St" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841942682>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Monroe Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101841942683>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Monroe Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842037155>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Baldwin St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842037316>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Baytown Loop" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842037317>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Baytown Loop" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842037349>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Baytown Tunl" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842037350>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Baytown Tunl" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842060522>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Highway Blvd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842060577>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Highway Blvd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842167781>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N McCarty St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842167873>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "McCarty Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842168683>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N McCarty St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842207817>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Reville St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842207818>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Reville St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842208536>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Spanish Trl" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209147>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Tomball Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209148>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Tomball Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209149>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Tomball Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209150>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Tomball Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209151>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Tomball Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209617>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Wayside" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209624>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209625>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209636>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209657>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209658>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209659>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209671>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209672>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209673>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842209674>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842210720>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beaumont Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842210721>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beaumont Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842210722>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beaumont Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842221585>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "la Porte Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842221586>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "la Porte Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842221604>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "la Porte Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842221605>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "la Porte Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842221606>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "la Porte Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842223507>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Pasadena Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842223508>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Pasadena Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842223509>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Pasadena Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842224073>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Reveille Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842224074>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Reveille St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842224075>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Reveille St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842224752>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Shepherd Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842224753>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Shepherd Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842224754>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Shepherd Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842226592>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Alexander Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842226593>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Alexander Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842226594>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Alexander Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842226595>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Alexander Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842226596>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Alexander Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842226598>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Alexander Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842226599>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Alexander Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842227046>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beltway 8" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842230267>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hempstead Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842230302>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hempstead Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842232272>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Northwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842232278>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Northwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842234537>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Telephone Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842234538>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Telephone Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842234539>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Telephone Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842241661>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "St Emanuel St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842250711>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Fred Hartman Brg" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842250712>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Fred Hartman Brg" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842255055>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Mount Houston Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842255056>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Mount Houston Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842257674>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Sidney Sherman Brg" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842257675>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Sidney Sherman Brg" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842261714>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 261" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101842261716>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 261" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101842261721>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Ih 45-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842261738>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 527" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101842261739>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 527" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101842262054>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Ssgt Macario Garcia" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842262706>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "290-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1101842397418>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1101842398223>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1102175447432>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "McCarty St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102215948423>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1102390241521>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Houston St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102390241522>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Houston St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102431020881>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Houston Blvd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102640685639>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1102640685662>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1102641201219>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1102641201220>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1102905218893>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 290 Byp" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102927156831>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Northwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102927854236>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "NW Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102928028305>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "290-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102970390158>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Northwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102970390332>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hempstead Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102970392179>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Northwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102970393934>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Tomball Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102970394250>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102970398780>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Peek Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1102971717008>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 573" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110341442048>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110341443762>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Main St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110341443764>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Main St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110341443766>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Main St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110341444603>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110341463304>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks-Howell Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103542017776>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103542018341>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103542018367>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103542018536>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103542019060>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103542020107>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103542020123>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103594367840>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "10-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103594367842>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Silber Rd" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103671454662>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beltway 8" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103671454848>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beltway 8 E N" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691572394>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691572398>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691572420>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691579730>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691579734>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691596771>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beltway 8" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691596775>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beltway 8" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691644588>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691644589>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691644591>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691644593>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691644595>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691644596>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1103691644597>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Satsuma Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104258547081>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 573" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104258547292>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59 Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104258547989>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 573" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104258580180>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104258580181>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104258580545>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59 Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104258583451>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 321" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104258585331>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 573" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104258588397>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Washington Ave" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104258607219>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 573" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104258608525>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Houston St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104353275587>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Winkler Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104358141340>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Monroe Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104358188695>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Winkler Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104358188703>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Winkler Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469904609>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Eastex Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469904610>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 59 N" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469905910>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6 N" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469907055>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6 S" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469908923>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 6 S" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469989293>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Howell Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469989294>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Howell Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104469991042>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Addicks Howell Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104470761446>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104472760593>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104472765978>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104473135214>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104473179963>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104473179964>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104473179965>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104473179969>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104474838146>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104475010736>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 207" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104475010739>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Main St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104477873595>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104477873639>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104482439943>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104482439945>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104483775595>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484231827>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 336" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484231828>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 336" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484255662>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59 Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104484266239>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Frazier St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104484266334>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 75" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484266335>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 75" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484266336>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 75" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484266753>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Hwy 59 N" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104484283254>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105 E" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484285906>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484397582>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 336" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484397583>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 336" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484397584>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 336" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104484397634>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104484397635>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104484397796>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Loop 336 E" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104484397797>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Loop 336 E" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485016496>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485030498>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Bowie St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485034960>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Sgt Macario Garcia Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485037885>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Durham Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485037924>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 261" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485041289>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104485041291>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104485041387>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485041399>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S 69th St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041435>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Main St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041465>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Ssgt Macario Garcia Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041623>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485041674>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Wayside Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041684>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "East Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041685>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "East Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041788>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "69th St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041793>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Freeway Svc Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/1104485041808>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "la Porte Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041809>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "la Porte Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485041818>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 261" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485041819>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 261" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485043880>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Linder St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175837>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175838>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175839>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175840>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175841>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175842>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175843>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175844>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hardy Toll Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485175851>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Sorters McLellan Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485176087>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Sam Houston Pkwy W" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485176162>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485176163>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485176164>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485176165>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485176166>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485176167>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 548" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485176211>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Sam Houston Pkwy E" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485180420>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "10-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485194703>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "10-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485194704>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "10-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485195147>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485195148>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485195150>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485206984>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485219844>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485247740>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485262858>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485277346>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45-Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1104485571341>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "FM 1960 E" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/1104485645434>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485645498>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "FM 1960 Rd W" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485667053>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670411>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670412>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670413>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670414>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670415>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670416>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670417>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 225" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670576>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146E Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485670577>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 146E Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841507>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841508>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841509>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841510>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841511>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841512>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841513>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485841514>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 288" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485976961>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Spanish Trl" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485976963>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Spanish Trl" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104485977006>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 5" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104485977045>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104485977046>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486049733>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Brazos St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486061826>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Decker Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486062194>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Spur 330" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104486131241>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486135650>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486135651>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486135652>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486135653>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486135654>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486135655>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90 Alt" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486135758>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Spanish Trl" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486135759>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Old Spanish Trl" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486137595>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486137644>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hov US 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486158353>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hov US 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486158354>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hov US 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486158549>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486158552>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486158553>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486158665>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486158669>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486162833>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 59 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486182865>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 59 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486182885>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486221211>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Katy Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486221212>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Katy Mills Blvd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486221213>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486229843>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 290 Hov" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486230168>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Service Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237419>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486237526>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486237527>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486237537>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beaumont Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237538>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beaumont Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237551>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Lake Houston Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237552>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Lake Houston Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237579>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Beaumont Hwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237628>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486237629>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486237658>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Lake Houston Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237659>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Lake Houston Pkwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486237681>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Co Rd 526" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "County" .
+
+<https://ufokn.demo/roads/1104486237682>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Co Rd 526" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "County" .
+
+<https://ufokn.demo/roads/1104486238916>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "NW Frwy Acc" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486239096>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 290" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486282369>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Loop Fwy" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1104486282453>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "FM 526 S" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/1104486282454>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "FM 526 S" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/1104486282455>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 290" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486282457>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 290" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486304166>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90U Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486304168>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 249" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104486304197>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 290" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486304198>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 290" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1104486304537>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1104486304538>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 6" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105047028432>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Westpark Tollway" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105047028433>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Westpark Tollway" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105063011614>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Katy Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105063011814>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105063013112>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105069184424>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105069227977>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10 Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105072863080>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105072863086>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105072866502>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "10-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105072866510>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "10-Hov Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105316758965>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy (Toll Road)" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105316758977>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Grand Pkwy (Toll Road)" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105316759010>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105316759011>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105319730120>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105319783648>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Katy Frwy Svc Rd" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/1105319869441>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105319869442>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 10" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533737210>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105533793963>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533802542>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533811368>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hov US 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105533811398>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533811400>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533811404>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533811407>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533811410>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533811411>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533811412>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533812247>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812248>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812249>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812250>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812251>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812252>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812253>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812255>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812256>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812257>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533812258>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Southwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105533812260>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Southwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105533824547>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- -69 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533824557>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533831885>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "59-Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105533831905>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105533831924>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Southwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105533831942>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Southwest Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105533832125>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105533832126>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105535057400>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105535057420>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105535057432>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105535057447>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105535076878>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105535089368>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 59 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105544413070>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Eastex Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105550758256>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Eastex Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105550759033>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Eastex Fwy" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105550809562>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 59 Hov" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105550843876>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105550844402>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105550844407>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105550855732>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105550855739>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105550855741>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105556222111>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105556222128>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105556222454>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105556222466>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105556222471>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105556222591>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105556222601>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105556222610>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105556222619>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 59" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/1105556223312>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105556223318>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 69" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/1105596412217>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105596412229>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 99" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/1105597273138>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Westpark Tollway" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/1105598254892>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "US Hwy 90U Bus" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "U.S" .
+
+<https://ufokn.demo/roads/110755127659>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "I- 45" ;
+    <https://ufokn.demo/roadType/> "Primary Road" ;
+    <https://ufokn.demo/routeType/> "Interstate" .
+
+<https://ufokn.demo/roads/110755127824>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 75" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127855>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127859>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127860>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 105" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127939>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 242" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127940>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 242" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127941>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Hwy 242" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127973>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 336" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755127979>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Loop 336" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755127980>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Loop 336 E" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755127985>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Loop 336 W" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755127992>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Loop 336 E" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755128028>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 494" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110755128415>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "FM 1097" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/110755128466>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "FM 1485" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Other" .
+
+<https://ufokn.demo/roads/110755130339>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Davis St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755130341>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Davis St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755133798>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Lester St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755135936>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Frazier St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755135941>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Frazier St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755135942>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Frazier St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755136943>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Needham Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755136944>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Needham Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755138462>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "N Danville St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755138467>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Danville St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755139917>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "E Phillips St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755139923>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Phillips St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755144266>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Cartwright Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755144275>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Cartwright Rd" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755149009>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "College Park Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110755149010>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "College Park Dr" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110796786165>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 146" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110796786166>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "Hwy 146 S" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110796786367>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "State Loop 573" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "State Recognized" .
+
+<https://ufokn.demo/roads/110796792885>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "W Southline St" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
+<https://ufokn.demo/roads/110796793026>
+    a <https://ufokn.demo/type/roads/> ;
+    <https://ufokn.demo/label/> "S Washington Ave" ;
+    <https://ufokn.demo/roadType/> "Secondary Road" ;
+    <https://ufokn.demo/routeType/> "Common Name" .
+
