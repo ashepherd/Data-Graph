@@ -1,0 +1,13 @@
+
+
+docker pull rocker/r-base
+
+
+docker build -t myname/myimage .
+The process will take a while due to the package installation. 
+Once it’s finished we can test our new image by starting a container with
+
+docker run -it --rm -v ~/"R-Script in Docker"/01_data:/01_data -v ~/"R-Script in Docker"/03_output:/03_output myname/myimage
+
+
+
