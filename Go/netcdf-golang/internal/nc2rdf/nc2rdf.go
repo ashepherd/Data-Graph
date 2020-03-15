@@ -4,6 +4,8 @@ import (
 	"bytes"
 	"fmt"
 	"log"
+	"path/filepath"
+	"strings"
 
 	"github.com/fhs/go-netcdf/netcdf"
 )
@@ -11,9 +13,18 @@ import (
 // ReadNC reads the data in NetCDF file at filename and prints it out.
 // TODO change to ReadNWM as it's not a generic nc reader.
 func ReadNC(filename string) ([]byte, error) {
+
+	fmt.Printf("\n --- \n Opening: %s \n ---- \n", filename)
+
+	// form a context (named graph) from the filename
+	base := filepath.Base(filename)
+	rgxbase := strings.ReplaceAll(base, ".", "_")
+	gctx := fmt.Sprintf("https://ufokn.org/ctx/nwm/%s", rgxbase) // define a quad context string (will be an IRI)
+
 	// Open read-only mode, why not...
 	ds, err := netcdf.OpenFile(filename, netcdf.NOWRITE)
 	if err != nil {
+		log.Println("ERROR opening file")
 		return nil, err
 	}
 	defer ds.Close()
@@ -42,10 +53,7 @@ func ReadNC(filename string) ([]byte, error) {
 
 	// Print out the data
 	for y := 0; y < len(fid); y++ {
-		// format an ID for this resource
-		rid := fmt.Sprintf("https://ufokn.org.x/id/nwm/%d", fid[y])
-		// define a quad context string (will be an IRI)
-		gctx := "https://ufokn.org/ctx/nwm"
+		rid := fmt.Sprintf("https://ufokn.org.x/id/nwm/%d", fid[y]) // format an ID for this resource
 
 		b1, err := IILTriple(rid, "https://ufokn.org/voc/1/streamflow", fmt.Sprintf("%f", sf[y]), gctx)
 		if err != nil {

@@ -1,63 +1,84 @@
 package main
 
 import (
+	"fmt"
+	"io/ioutil"
 	"log"
+	"net/url"
 	"os"
-
-	// "os"
+	"strings"
+	"time"
 
 	"../../internal/nc2rdf"
+	"../../internal/s3fetch"
+	"../../internal/urlgen"
 )
 
-// Some of the files are in an S3 API based system at Google.  We can get by URL but
-// it might be easier to use a direct object link later as we can avoid
-// the local marshalling and deal with the objects as byte streams
-
 func main() {
-
-	// dir, err := ioutil.TempDir("/tmp", "nwmfiles")
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	// defer os.RemoveAll(dir)
-
-	// start := time.Now()
-	// s := start.AddDate(0, 0, -4) // back three days
-	// e := start.AddDate(0, 0, -2) // back one day
-	// urls := urlgen.NameSet(s, e)
-	// for _, dataurl := range urls {
-	// 	// read the URL to scratch space
-	// 	// process said URL, now file
-	// 	fp, err := fetch.GetNWM(dir, dataurl)
-	// 	if err != nil {
-	// 		log.Println(err)
-	// 	}
-	// 	fmt.Println(dataurl)
-	// 	fmt.Println(fp)
-	// 	b, err := nc2rdf.ReadNC("./data/input/test.nc")
-	// 	if err != nil {
-	// 		log.Fatalf("reading example file failed: %v\n", err)
-	// 	}
-	// 	fmt.Println(len(b))
-
-	// }
-
-	// RDF format testing snippet
-	log.Println("Reading ./data/input/test.nc")
-	b, err := nc2rdf.ReadNC("./data/input/test.nc")
+	dir, err := ioutil.TempDir("/tmp", "nwmfiles")
 	if err != nil {
-		log.Println(err)
+		log.Fatal(err)
 	}
-	n, err := string2file(b, "./data/output/test.nq")
-	if err != nil {
-		log.Println(err)
-	} else {
-		log.Printf("Wrote %d bytes\n", n)
-	}
+	defer os.RemoveAll(dir)
 
+	start := time.Now()
+	s := start.AddDate(0, 0, -4) // back three days
+	e := start.AddDate(0, 0, -3) // back one day
+	urls := urlgen.NameSet(s, e)
+
+	for _, dataurl := range urls {
+		fmt.Println(dataurl)
+
+		// fp, err := fetch.GetNWM(dir, dataurl) // fetch not used for NWM, required s3 API calling
+		//if err != nil {
+		//	log.Println(err)
+		//}
+		//fmt.Println(fp)
+
+		// convert URL into object ID we need
+		u, err := url.Parse(dataurl)
+		if err != nil {
+			panic(err)
+		}
+		ps := strings.Split(u.Path, "/")
+		oid := fmt.Sprintf("%s/%s/%s", ps[2], ps[3], ps[4])
+		ncfn := fmt.Sprintf("%s_%s_%s", ps[2], ps[3], ps[4])
+		rdffn := strings.Replace(ncfn, ".nc", ".nt", 1)
+
+		fmt.Println("-----------------")
+		fmt.Println(ncfn)
+		fmt.Println(rdffn)
+		fmt.Println("-----------------")
+
+		// Fetch NetCDF file from Google S3 system hosting NWM files
+		log.Printf("Fetch from Google: %s", oid)
+		nwm, err := s3fetch.GetS3FP(oid)
+		if err != nil {
+			log.Println(err)
+		}
+		n, err := bytes2file(nwm, fmt.Sprintf("%s/%s", dir, ncfn))
+		if err != nil {
+			log.Println(err)
+		} else {
+			log.Printf("Fetch wrote %d bytes to %s\n", n, ncfn)
+		}
+
+		// Read NetCDF file and convert to RDF
+		log.Printf("NC2RDF Reading: %s", ncfn)
+		b, err := nc2rdf.ReadNC(fmt.Sprintf("%s/%s", dir, ncfn))
+		if err != nil {
+			log.Println(err)
+		}
+		n, err = bytes2file(b, fmt.Sprintf("./data/tmp/%s", rdffn))
+		if err != nil {
+			log.Println(err)
+		} else {
+			log.Printf("NC2RDF Wrote %d bytes to %s\n", n, rdffn)
+		}
+	}
 }
 
-func string2file(b []byte, fn string) (int, error) {
+func bytes2file(b []byte, fn string) (int, error) {
 	f, err := os.Create(fn)
 	defer f.Close()
 	if err != nil {
@@ -65,5 +86,6 @@ func string2file(b []byte, fn string) (int, error) {
 	}
 
 	n, err := f.Write(b)
+	f.Close()
 	return n, err
 }
