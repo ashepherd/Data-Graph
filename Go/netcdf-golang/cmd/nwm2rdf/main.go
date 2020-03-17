@@ -15,6 +15,31 @@ import (
 )
 
 func main() {
+	// The Google hosted files use an S3 API that requires credentials but there is no cost.
+	// You need to generate a credentials JSON file and note it in your env.  Though later I will use
+	// the static file location approach.
+	//googleSource()
+
+	// The local source simply reads a NetCDF NWM based file and converts it.
+	localSource("./data/input/nwm.20200210_analysis_assim_nwm.t00z.analysis_assim.channel_rt.tm00.conus.nc", "./data/output/test2.rdf")
+}
+
+func localSource(in, out string) {
+	// Read NetCDF file and convert to RDF
+	log.Printf("NC2RDF Reading: %s", in)
+	b, err := nc2rdf.ReadNC(in)
+	if err != nil {
+		log.Println(err)
+	}
+	n, err := bytes2file(b, out)
+	if err != nil {
+		log.Println(err)
+	} else {
+		log.Printf("NC2RDF Wrote %d bytes to %s\n", n, out)
+	}
+}
+
+func googleSource() {
 	dir, err := ioutil.TempDir("/tmp", "nwmfiles")
 	if err != nil {
 		log.Fatal(err)
@@ -69,7 +94,7 @@ func main() {
 		if err != nil {
 			log.Println(err)
 		}
-		n, err = bytes2file(b, fmt.Sprintf("./data/tmp/%s", rdffn))
+		n, err = bytes2file(b, fmt.Sprintf("./data/output/%s", rdffn))
 		if err != nil {
 			log.Println(err)
 		} else {

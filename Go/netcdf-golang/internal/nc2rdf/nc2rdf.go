@@ -1,34 +1,34 @@
 package nc2rdf
 
 import (
-	"bytes"
 	"fmt"
 	"log"
 	"path/filepath"
-	"strings"
 
 	"github.com/fhs/go-netcdf/netcdf"
 )
 
+type NCdata struct {
+	Fid   []int32
+	Sf    []float64
+	Ng    []float64
+	Vel   []float64
+	Fname string
+}
+
 // ReadNC reads the data in NetCDF file at filename and prints it out.
 // TODO change to ReadNWM as it's not a generic nc reader.
 func ReadNC(filename string) ([]byte, error) {
+	fmt.Printf("Opening: %s \n", filename)
 
-	fmt.Printf("\n --- \n Opening: %s \n ---- \n", filename)
-
-	// form a context (named graph) from the filename
-	base := filepath.Base(filename)
-	rgxbase := strings.ReplaceAll(base, ".", "_")
-	gctx := fmt.Sprintf("https://ufokn.org/ctx/nwm/%s", rgxbase) // define a quad context string (will be an IRI)
-
-	// Open read-only mode, why not...
+	// Open in read-only mode
 	ds, err := netcdf.OpenFile(filename, netcdf.NOWRITE)
 	if err != nil {
-		log.Println("ERROR opening file")
 		return nil, err
 	}
 	defer ds.Close()
 
+	// The following could all take place concurrently
 	fid, err := getVarInt(&ds, "feature_id")
 	if err != nil {
 		return nil, err
@@ -49,35 +49,18 @@ func ReadNC(filename string) ([]byte, error) {
 		return nil, err
 	}
 
-	buf := bytes.NewBufferString("")
+	// form a context (named graph) from the filename
+	base := filepath.Base(filename)
+	// rgxbase := strings.ReplaceAll(base, ".", "_")
+	// gctx := fmt.Sprintf("https://ufokn.org/ctx/nwm/%s", rgxbase) // define a quad context string (will be an IRI)
 
-	// Print out the data
-	for y := 0; y < len(fid); y++ {
-		rid := fmt.Sprintf("https://ufokn.org.x/id/nwm/%d", fid[y]) // format an ID for this resource
+	nd := NCdata{Fid: fid, Sf: sf, Ng: ng, Vel: vel, Fname: base}
 
-		b1, err := IILTriple(rid, "https://ufokn.org/voc/1/streamflow", fmt.Sprintf("%f", sf[y]), gctx)
-		if err != nil {
-			log.Println(err)
-		}
-		b2, err := IILTriple(rid, "https://ufokn.org/voc/1/nudge", fmt.Sprintf("%f", ng[y]), gctx)
-		if err != nil {
-			log.Println(err)
-		}
-		b3, err := IILTriple(rid, "https://ufokn.org/voc/1/velocity", fmt.Sprintf("%f", vel[y]), gctx)
-		if err != nil {
-			log.Println(err)
-		}
-		b4, err := IIITriple(rid, "http://rdfs/type", "https://ufokn.org/voc/1/NWM", gctx)
-		if err != nil {
-			log.Println(err)
-		}
+	// rb, err := TripleGen(nd, gctx)
+	// log.Println(len(rb))
 
-		fmt.Fprintf(buf, "%s", b1)
-		fmt.Fprintf(buf, "%s", b2)
-		fmt.Fprintf(buf, "%s", b3)
-		fmt.Fprintf(buf, "%s", b4)
-	}
+	rb2, err := TurtleTemplate(nd)
+	log.Println(len(rb2))
 
-	// fmt.Print(buf.String())
-	return buf.Bytes(), err
+	return rb2, err
 }

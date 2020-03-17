@@ -8,6 +8,43 @@ import (
 	"github.com/knakk/rdf"
 )
 
+// TripleGen gernates triples from a netcdf file contents for the National Water Model
+func TripleGen(nd NCdata, gctx string) ([]byte, error) {
+	buf := bytes.NewBufferString("")
+	for y := 0; y < len(nd.Fid); y++ {
+		rid := fmt.Sprintf("https://ufokn.org.x/id/nwm/%d", nd.Fid[y]) // format an ID for this resource
+
+		b1, err := IILTriple(rid, "http://schema.ufokn.org/core/v1/streamflow", fmt.Sprintf("%f", nd.Sf[y]), gctx)
+		if err != nil {
+			log.Println(err)
+			return nil, err
+		}
+		b2, err := IILTriple(rid, "http://schema.ufokn.org/core/v1/nudge", fmt.Sprintf("%f", nd.Ng[y]), gctx)
+		if err != nil {
+			log.Println(err)
+			return nil, err
+		}
+		b3, err := IILTriple(rid, "http://schema.ufokn.org/core/v1/velocity", fmt.Sprintf("%f", nd.Vel[y]), gctx)
+		if err != nil {
+			log.Println(err)
+			return nil, err
+		}
+		b4, err := IIITriple(rid, "http://rdfs/type", "http://schema.ufokn.org/core/v1/NWM", gctx)
+		if err != nil {
+			log.Println(err)
+			return nil, err
+		}
+
+		fmt.Fprintf(buf, "%s", b1)
+		fmt.Fprintf(buf, "%s", b2)
+		fmt.Fprintf(buf, "%s", b3)
+		fmt.Fprintf(buf, "%s", b4)
+	}
+
+	// fmt.Print(buf.String())
+	return buf.Bytes(), nil
+}
+
 // IILTriple builds a IRI, IRI, Literal triple
 func IILTriple(s, p, o, c string) (string, error) {
 	buf := bytes.NewBufferString("")

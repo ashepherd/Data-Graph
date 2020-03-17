@@ -3,156 +3,100 @@ package main
 import (
 	"fmt"
 	"log"
-	"time"
 
-	"github.com/bxcodec/faker/v3"
 	"github.com/xitongsys/parquet-go-source/local"
-	"github.com/xitongsys/parquet-go/parquet"
 	"github.com/xitongsys/parquet-go/reader"
-	"github.com/xitongsys/parquet-go/writer"
 )
 
-// for UFOKN Index(['id', 'type', 'name', 'hand', 'offset', 'featureid', 'x', 'y'], dtype='object')
-
 // <pyarrow._parquet.ParquetSchema object at 0x7ffa0a003128>
-// id: BYTE_ARRAY String
-// type: BYTE_ARRAY String
-// name: BYTE_ARRAY String
-// hand: DOUBLE
-// offset: DOUBLE
-// featureid: DOUBLE
-// x: DOUBLE
-// y: DOUBLE
-
-type user struct {
-	ID        string    `parquet:"name=id, type=UTF8, encoding=PLAIN_DICTIONARY"`
-	FirstName string    `parquet:"name=firstname, type=UTF8, encoding=PLAIN_DICTIONARY"`
-	LastName  string    `parquet:"name=lastname, type=UTF8, encoding=PLAIN_DICTIONARY"`
-	Email     string    `parquet:"name=email, type=UTF8, encoding=PLAIN_DICTIONARY"`
-	Phone     string    `parquet:"name=phone, type=UTF8, encoding=PLAIN_DICTIONARY"`
-	Blog      string    `parquet:"name=blog, type=UTF8, encoding=PLAIN_DICTIONARY"`
-	Username  string    `parquet:"name=username, type=UTF8, encoding=PLAIN_DICTIONARY"`
-	Score     float64   `parquet:"name=score, type=DOUBLE"`
-	CreatedAt time.Time //wont be saved in the parquet file
+type ufokn struct {
+	ID        string  `parquet:"name=id, type=UTF8, encoding=PLAIN_DICTIONARY"`        // BYTE_ARRAY String
+	Type      string  `parquet:"name=type, type=UTF8, encoding=PLAIN_DICTIONARY"`      // BYTE_ARRAY String
+	Name      string  `parquet:"name=name, type=UTF8, encoding=PLAIN_DICTIONARY"`      // BYTE_ARRAY String
+	Hand      string  `parquet:"name=hand, type=UTF8, encoding=PLAIN_DICTIONARY"`      // DOUBLE
+	Offset    string  `parquet:"name=offset, type=UTF8, encoding=PLAIN_DICTIONARY"`    // DOUBLE
+	Featureid string  `parquet:"name=featureid, type=UTF8, encoding=PLAIN_DICTIONARY"` // DOUBLE
+	X         float64 `parquet:"name=x, type=DOUBLE"`                                  // DOUBLE
+	Y         float64 `parquet:"name=y, type=DOUBLE"`                                  // DOUBLE
 }
-
-const recordNumber = 10000
 
 func main() {
-	var data []*user
-	//create fake data
-	for i := 0; i < recordNumber; i++ {
-		u := &user{
-			ID:        faker.UUIDDigit(),
-			FirstName: faker.FirstName(),
-			LastName:  faker.LastName(),
-			Email:     faker.Email(),
-			Phone:     faker.Phonenumber(),
-			Blog:      faker.URL(),
-			Username:  faker.Username(),
-			Score:     float64(i),
-			CreatedAt: time.Now(),
-		}
-		data = append(data, u)
-	}
-	err := generateParquet(data)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println("Printing page 1")
-	page1, err := readPartialParquet(10, 1)
-	if err != nil {
-		log.Fatal(err)
-	}
-	for _, a := range page1 {
-		fmt.Println(a)
-	}
-	log.Println("Printing page 2")
-	page2, err := readPartialParquet(10, 2)
-	if err != nil {
-		log.Fatal(err)
-	}
-	for _, a := range page2 {
-		fmt.Println(a)
-	}
-	all, err := readParquet()
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println("Printing all data")
-	for _, a := range all {
-		fmt.Println(a)
-	}
-	names, err := readParquetColumn("firstname")
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println("Printing column Firstname")
-	for _, a := range names {
-		fmt.Println(a)
-	}
-	avg, err := calcScoreAVG()
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println("Calculating score")
-	fmt.Printf("Score:%f\n", avg)
-}
+	//	var data []*ufokn
+	log.Println("Reading file")
 
-func generateParquet(data []*user) error {
-	log.Println("generating parquet file")
-	fw, err := local.NewLocalFileWriter("output.parquet")
-	if err != nil {
-		return err
-	}
-	//parameters: writer, type of struct, size
-	pw, err := writer.NewParquetWriter(fw, new(user), int64(len(data)))
-	if err != nil {
-		return err
-	}
-	//compression type
-	pw.CompressionType = parquet.CompressionCodec_GZIP
-	defer fw.Close()
-	for _, d := range data {
-		if err = pw.Write(d); err != nil {
-			return err
-		}
-	}
-	if err = pw.WriteStop(); err != nil {
-		return err
-	}
-	return nil
-}
+	test()
 
-func readParquet() ([]*user, error) {
-	fr, err := local.NewLocalFileReader("output.parquet")
+	//all, err := myreadPartialParquet(50835, 0)
+	//if err != nil {
+	//	log.Fatal(err)
+	//}
+
+	//log.Println("Printing all data")
+	//for _, a := range all {
+	//	fmt.Println(a)
+	//}
+}
+func test() {
+	fr, err := local.NewLocalFileReader("jefferson_complete_risk_pts_test.parquet")
 	if err != nil {
-		return nil, err
+		log.Println(err)
 	}
-	pr, err := reader.NewParquetReader(fr, new(user), recordNumber)
+	log.Println(" -------------------   check mark -1-----------------------")
+
+	pr0, err := reader.NewParquetReader(fr, new(ufokn), 4)
 	if err != nil {
-		return nil, err
+		log.Println(err)
 	}
-	u := make([]*user, recordNumber)
-	if err = pr.Read(&u); err != nil {
-		return nil, err
+	log.Println(" -------------------   check mark 0-----------------------")
+
+	log.Println(pr0.GetNumRows())
+
+	u := make([]*ufokn, pr0.GetNumRows())
+
+	log.Println(" -------------------   check mark 0.5-----------------------")
+
+	if err = pr0.Read(&u); err != nil {
+		log.Println(" -------------------   check mark 1-----------------------")
+		log.Println(err)
 	}
-	pr.ReadStop()
+
+	pr0.ReadStop()
+
+	for i := range u {
+		fmt.Print(u[i])
+	}
+
+	// // Get a column reader and loop over the rows.
+	// pr, err := reader.NewParquetColumnReader(fr, 4) // 4 is the number parallel which I suspect is a go routine count?
+	// if err != nil {
+	// 	log.Println(err)
+	// }
+
+	// num := pr.GetNumRows()
+	// d2, _, _, err := pr.ReadColumnByIndex(2, num)
+	// d1, _, _, err := pr.ReadColumnByIndex(1, num)
+	// if err != nil {
+	// 	log.Println(err)
+	// }
+
+	// for i := range d2 {
+	// 	fmt.Printf("col1: %s   col2: %s \n", d1[i], d2[i])
+	// }
+
 	fr.Close()
-	return u, nil
 }
 
-func readPartialParquet(pageSize, page int) ([]*user, error) {
-	fr, err := local.NewLocalFileReader("output.parquet")
+func myreadPartialParquet(pageSize, page int) ([]*ufokn, error) {
+	fr, err := local.NewLocalFileReader("jefferson_complete_risk_pts_test.parquet")
 	if err != nil {
 		return nil, err
 	}
-	pr, err := reader.NewParquetReader(fr, new(user), int64(pageSize))
+	pr, err := reader.NewParquetReader(fr, new(ufokn), int64(pageSize))
 	if err != nil {
 		return nil, err
 	}
 	pr.SkipRows(int64(pageSize * page))
-	u := make([]*user, pageSize)
+	u := make([]*ufokn, pageSize)
 	if err = pr.Read(&u); err != nil {
 		return nil, err
 	}
@@ -161,46 +105,20 @@ func readPartialParquet(pageSize, page int) ([]*user, error) {
 	return u, nil
 }
 
-func readParquetColumn(name string) ([]string, error) {
-	fr, err := local.NewLocalFileReader("output.parquet")
+func myreadParquet(recordNumber int64) ([]*ufokn, error) {
+	fr, err := local.NewLocalFileReader("jefferson_complete_risk_pts_test.parquet")
 	if err != nil {
 		return nil, err
 	}
-	pr, err := reader.NewParquetColumnReader(fr, recordNumber)
+	pr, err := reader.NewParquetReader(fr, new(ufokn), recordNumber)
 	if err != nil {
 		return nil, err
 	}
-	num := int(pr.GetNumRows())
-
-	data, _, _, err := pr.ReadColumnByPath("parquet_go_root."+name, num)
-	if err != nil {
+	u := make([]*ufokn, recordNumber)
+	if err = pr.Read(&u); err != nil {
 		return nil, err
 	}
-	var result []string
-	for _, i := range data {
-		result = append(result, i.(string))
-	}
-	return result, nil
-}
-
-func calcScoreAVG() (float64, error) {
-	fr, err := local.NewLocalFileReader("output.parquet")
-	if err != nil {
-		return 0.0, err
-	}
-	pr, err := reader.NewParquetColumnReader(fr, recordNumber)
-	if err != nil {
-		return 0.0, err
-	}
-	num := int(pr.GetNumRows())
-
-	data, _, _, err := pr.ReadColumnByPath("parquet_go_root.score", num)
-	if err != nil {
-		return 0.0, err
-	}
-	var result float64
-	for _, i := range data {
-		result += i.(float64)
-	}
-	return (result / float64(num)), nil
+	pr.ReadStop()
+	fr.Close()
+	return u, nil
 }
