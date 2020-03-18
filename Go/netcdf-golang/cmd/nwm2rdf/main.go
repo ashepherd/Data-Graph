@@ -21,7 +21,7 @@ func main() {
 	//googleSource()
 
 	// The local source simply reads a NetCDF NWM based file and converts it.
-	localSource("./data/input/nwm.20200210_analysis_assim_nwm.t00z.analysis_assim.channel_rt.tm00.conus.nc", "./data/output/test2.rdf")
+	localSource("./data/input/nwm.20200210_analysis_assim_nwm.t00z.analysis_assim.channel_rt.tm00.conus.nc", "./data/output/nwm_test.rdf")
 }
 
 func localSource(in, out string) {

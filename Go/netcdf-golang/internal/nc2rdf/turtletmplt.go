@@ -6,15 +6,20 @@ import (
 	"fmt"
 	"html/template"
 	"log"
+	"math"
 )
 
+// NCdataitem struct
 type NCdataitem struct {
-	Fid   int32
-	Sf    float64
-	Ng    float64
-	Vel   float64
-	Fname string
-	OPID  string
+	Fid       int32
+	Sf        float64
+	Ng        float64
+	Vel       float64
+	Fname     string
+	OPID      string
+	Date      string
+	CalcDepth float64
+	CritDepth float64
 }
 
 // TurtleTemplate builds RDF in Turtle using Go's text template
@@ -27,12 +32,23 @@ func TurtleTemplate(nd NCdata) ([]byte, error) {
 	ba = append(ba, p...)
 
 	for y := 0; y < len(nd.Fid); y++ {
-		salt := fmt.Sprintf("%s_%s", nd.Fid[y], nd.Fname)
+
+		cadpth := calcDepth(nd.Sf[y])
+		crdpth := critDepth(cadpth)
+
+		salt := fmt.Sprintf("%d_%s", nd.Fid[y], nd.Fname)
 		h := shahash(salt)
-		item := NCdataitem{Fid: nd.Fid[y], Sf: nd.Sf[y], Ng: nd.Ng[y], Vel: nd.Vel[y], Fname: nd.Fname, OPID: h}
+		item := NCdataitem{Fid: nd.Fid[y],
+			Sf:        nd.Sf[y],
+			Ng:        nd.Ng[y],
+			Vel:       nd.Vel[y],
+			Fname:     nd.Fname,
+			OPID:      h,
+			CalcDepth: cadpth,
+			CritDepth: crdpth}
 		b, err := babyTurtle(item)
 		if err != nil {
-			log.Printf("baby turtle died  :(   %s", err)
+			log.Printf("a baby turtle died  :(   %s", err)
 		}
 		ba = append(ba, b...)
 	}
@@ -40,8 +56,29 @@ func TurtleTemplate(nd NCdata) ([]byte, error) {
 	return ba, nil
 }
 
+// complete hack for the single file runs...
+// generated access to the object store will not need this
+func file2date(s string) string {
+
+	return "the date pulled from the filename"
+}
+
+// A[featureid] * Sf^B[featureid]
+func calcDepth(flow float64) float64 {
+	a := 0.28 // function will need to fetch a and b
+	b := 0.38
+
+	cd := a * math.Pow(flow, b)
+	return cd
+}
+
+func critDepth(calcDepth float64) float64 {
+	hand := 0.0 // function will need to fetch, assume 0 for test
+	return calcDepth - hand
+}
+
 func babyTurtle(i NCdataitem) ([]byte, error) {
-	tf := "./templates/nwm.rdf"
+	tf := "./templates/nwm_new.rdf"
 
 	t, err := template.New("object template").ParseFiles(tf) // open and parse a template text file
 	if err != nil {
@@ -61,7 +98,8 @@ func prefixset() []byte {
 
 	p := `PREFIX schema: <http://schema.org/>
 prefix dcterm: <http://purl.org/dc/terms/>
-PREFIX geoparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
 PREFIX geofunc: <http://www.opengis.net/def/function/geosparql/>
 PREFIX osm: <http://schema.ufokn.org/osm/v1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -80,11 +118,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 // sha (or md5) hash for a string for opaque (esk) IDs
 func shahash(s string) string {
 	return fmt.Sprintf("%x", md5.Sum([]byte(s)))
-}
-
-// complete hack for the single file runs...
-// generated access to the object store will not need this
-func file2date(s string) string {
-
-	return "the date pulled from the filename"
 }
