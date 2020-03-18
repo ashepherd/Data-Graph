@@ -2,7 +2,7 @@
 
 <http://id.ufokn.org/historical-forecast/{{.OPID}}>
   a ufokn:RiskPointStreamFlowForecast ;
-  ufokn:hydrologicLocation <https://id.ufokn.org/nwm/hydrographic-location/{{.Fid}}> ;
+  ufokn:hydrologicLocation <https://id.ufokn.org/hydrologic-location/NWM.{{.Fid}}> ;
   ufokn:associatedDataSource "{{.Fname}}" ;
   ufokn:observedTime "{{.Date}}"^^xsd:dateTime ;
   ufokn:streamFlow "{{.Sf}}"^^xsd:double ; 

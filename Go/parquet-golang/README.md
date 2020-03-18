@@ -1,8 +1,6 @@
 # parquet-golang
 Repository to show samples of processing parquet files using Golang
 
-
-
 https://github.com/UFOKN/Knowledge-Graph/tree/master/ontologies
 
 
