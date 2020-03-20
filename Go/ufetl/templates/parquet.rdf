@@ -1,0 +1,39 @@
+{{define "T"}}
+ <https://id.ufokn.org/feature-at-risk/{{.ID}}>
+    a ufokn:FeatureAtRisk ;
+    ufokn:hasIdentifer [
+    a ufokn:OpenStreetMapIdentifier ;
+    ufokn:hasIdentifierScheme ufokn:IDENTIFIERSCHEME_OpenStreetMap ;
+                      # IDENTIFIERSCHEME_{{.Source}} URI'ifed
+    ufokn:hasIdentifierValue "{{.ID}}"^^xsd:token ;
+    ufokn:openStreetMapType "{{.Type}}"^^xsd:string ;
+    ufokn:openStreetMapName "{{.Name}}"^^xsd:string ;
+  ] .
+ 
+<https://id.ufokn.org/identifier/comid/{{.Featureid}}>
+    a ufokn:Identifier ;
+    ufokn:hasIdentifierScheme ufokn:IDENTIFIERSCHEME_NHD-COMID ;
+    ufokn:hasIdentifierValue "{{.Featureid}}"^^xsd:token .
+ 
+<https://id.ufokn.org/risk-point/{{.CKey}}> 
+  a ufokn:RiskPoint ;
+  prov:used ufokn:DATASOURCE_NationalElevationDataset ;
+  ufokn:featureOfInterest <https://id.ufokn.org/feature-at-risk/{{.ID}}> ;
+  ufokn:elevationOffset "{{.Offset}}"^^xsd:float ;
+  ufokn:hasIdentifier <https://id.ufokn.org/identifier/comid/{{.Featureid}}> ;
+  ufokn:hasGeometry [
+    a sf:Point ;
+    dcterm:description "Risk Point the chosen lowest elevation by NHD catchment and some elevation grid." ;
+    geosparql:crs <http://www.opengis.net/def/crs/OGC/1.3/CRS84> ;
+    geosparql:asWKT "POINT({{.X}} {{.Y}} {{.Z}})"^^geosparql:wktLiteral ;
+  ] .
+
+# HydrologicLocation - the CRS for hydrology
+<https://id.ufokn.org/hydrologic-location/NWM.{{.Featureid}}>
+  a ufokn:HydrologicLocation, ufokn:NWMHydrologicLocation ;
+  ufokn:hasRiskPoint <https://id.ufokn.org/risk-point/{{.CKey}}> ;
+  ufokn:heightAboveNearestDrainage "{{.Hand}}"^^xsd:float ;
+  ufokn:ratingCurveCoefficient "{{.A}}"^^xsd:float ;
+  ufokn:ratingCurveExponent "{{.B}}"^^xsd:float .
+ 
+ {{end}}

@@ -1,0 +1,19 @@
+{{define "T"}}
+
+<https://id.ufokn.org/nwm/hydrographic-location/{{.Fid}}>
+  a ufokn:NWMLocation , ufokn:RelativeRiskPointLocation ; 
+  ufokn:hasIdentifier [
+    a ufokn:Identifier ;
+    dcterm:description "the outlet of an NHD catchment" ;
+    ufokn:hasIdentifierScheme ufokn:NationalHydrographyDataset ;
+    ufokn:hasIdentifierValue "{{.Fid}}"^^xsd:token 
+  ] .
+
+<http://id.ufokn.org/historical-forecast/{{.OPID}}>
+  a ufokn:RiskPointStreamFlowForecast ;
+  ufokn:usesRelativeRiskPointLocation <https://id.ufokn.org/nwm/hydrographic-location/{{.Fid}}> ;
+  ufokn:forecastedWater "{{.Sf}}"^^xsd:double ; 
+  ufokn:associatedDataSource "{{.Fname}}" ;
+  ufokn:observedTime "2020-02-10 00:00:00UTC"^^xsd:dateTime .
+
+{{end}}

@@ -1,0 +1,12 @@
+{{define "T"}}
+
+<http://id.ufokn.org/historical-forecast/{{.OPID}}>
+  a ufokn:RiskPointStreamFlowForecast ;
+  ufokn:hydrologicLocation <https://id.ufokn.org/hydrologic-location/NWM.{{.Fid}}> ;
+  ufokn:associatedDataSource "{{.Fname}}" ;
+  ufokn:observedTime "{{.Date}}"^^xsd:dateTime ;
+  ufokn:streamFlow "{{.Sf}}"^^xsd:double ; 
+  ufokn:depthOfChannelWater "{{.CalcDepth}}"^^xsd:float ;
+  dcterm:description "A_featureid * (Sf to the power of B_featureid)" ;
+  ufokn:criticalDepth "{{.CritDepth}}"^^xsd:float .
+{{end}}
